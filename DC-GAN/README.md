@@ -16,6 +16,6 @@ This was trained using Anime faces dataset available at [Kaggle](https://www.kag
 
 
  ## Results  
- | ![Generated Sample](test_image.png) |
+ | ![Generated Sample](test_img.png) |
 |:--:| 
 
