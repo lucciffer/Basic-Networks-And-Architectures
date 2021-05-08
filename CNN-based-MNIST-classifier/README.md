@@ -7,6 +7,6 @@ More info about MNIST dataset on [Wiki](https://en.wikipedia.org/wiki/MNIST_data
 |:--:| 
 
 ## Results  
-The test input image `smaple_image.png` contained the letter 7, and the model correctly predicted the number as 7.    
-| ![Test input image](sample_image.png) |
-|:--:| 
+The test input image `smaple_image.png` contained the letter 7, and the model correctly predicted the number as 7.      
+### Test image
+<img src="sample_image.png" width="28">
