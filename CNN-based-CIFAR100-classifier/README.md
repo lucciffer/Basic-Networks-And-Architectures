@@ -8,7 +8,7 @@ The CIFAR100 dataset can be downloaded from this [link](https://www.cs.toronto.e
 |:--:| 
 
 ## Results  
-The test input image `sample_image1.jpeg` contained a beaver, and `sample_image2.jpeg` contained a train, which were correctly predicted by the network as 42, and 48, which are the class labels for beaver and train respectively.  
+The test input image `sample_image.jpeg` contained a beaver, and `sample_image2.jpeg` contained a train, which were correctly predicted by the network as 42, and 48, which are the class labels for beaver and train respectively.  
 ### Test input images  
-<img src="sample_input1.jpeg">  
+<img src="sample_input.jpeg">  
 <img src="sample_input2.jpeg">
