@@ -25,3 +25,44 @@ The architecture basically consists of convolution layers which typically help i
 - ReLU activation function for the Generator network
 - Leaky ReLU activation function for the discriminator network  
 
+**Objective function**  
+The objective function is what helps in realizing the end results. 
+<img src="DC-GAN/assets/obj-func-dcgan.png">  
+Let us consider a Discriminator (D) that is trying to maximize V(D, G) and the Generator (G) is trying to minimize it. Let’s dive into the V(D, G). (x=real image, z=noise, D(x)=Probability of x being real ,G(z)=Generated image using z-noise). In case of the discriminator, when the real images are fed, D(x) should be higher (≈1) and D(G(z)) should be lower (≈0). Therefore D should be trained to make V(D, G) higher and on the other hand, when it comes to the generator, it tries to generate better images that are real-like. Therefore it tries to make D(G(z)) higher (≈1) which makes V(D, G) minimized.    
+Results and more about DCGAN demonstration in respective section.  
+
+## CNN based classifiers(on MNIST, CIFAR10 and CIFAR100)  
+The general idea or the component used in CNN are the convolutional layers. Generally, in CNN, the set of images is first multiplied with the convolution kernel in a sliding window fashion, and then pooling is performed on the convoluted output and later on, the image is flattened and passed to the Linear layer for classification. **The usual steps for which are as follows**:  
+- Convolution 
+- Pooling 
+- Activation function(Non-linear mostly)
+- Flatten 
+- Linear layer(aka. Dense or Fully connected layer) and classification   
+
+**Various Layers and components involved in CNN architectures**  
+
+1. Linear layer  
+The transformation y = Wx + b is applied at the linear layer, where W is the weight, b is the bias, y is the desired output, and x is the input.  
+2. Non-Linear activation functions  
+2.1. Binary Step  
+<img src="assets/binstep.png">  
+2.2. Logistic  
+<img src="assets/logistic.png">  
+2.3. TanH  
+<img src="assets/tanh.png">  
+2.4. ArcTan  
+<img src="assets/arctan.png">  
+2.5. Rectified Linear Unit (ReLU)  
+<img src="assets/relu.png">  
+2.6 Parametric ReLU (pReLU)  
+<img src="assets/prelu.png">  
+2.7. Exponential Linear Unit (ELU)  
+<img src="assets/elu.png">  
+2.8. Softplus  
+<img src="assets/softplus.png">  
+2.9. Softmax  
+<img src="assets/softmax.png">  
+Softmax function squashes the outputs of each unit to be between 0 and 1, similar to the sigmoid function but here it also divides the outputs such that the total sum of all the outputs equals to 1.  
+
+
+
