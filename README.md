@@ -1,5 +1,5 @@
 # Basic-Networks-And-Architectures  
-### Networks covered  
+### Networks covered in this repository 
 - [Deep Convolutional GAN](DC-GAN)  
 - [CNN based classifier for MNIST Data](CNN-based-MNIST-classifier)  
 - [CNN based classifier for CIFAR10 Data](CNN-based-CIFAR10-classifier)
