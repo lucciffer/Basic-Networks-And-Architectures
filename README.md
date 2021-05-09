@@ -16,7 +16,7 @@ As the name suggests, the generator is a network, that generates data, that coul
 Discriminator is the network that examines the performance of the Generator Network. Then again, How will this discriminator know the benchmarks for identifying real anime-like images from fake images that are produced by the generator? Even though the discriminator has no clue to classify the real anime images from the generated images at the beginning, It learns what are the benchmarks for examining the generator with the time with the help of the generator. Therefore it is basically learning how to classify generated images and the real images using the generated images.  
 DCGAN is using the same concept with the help of convolution layers which are ideal for capturing patterns of images. The generator network uses a random noise in order to produce the image.  
 **The architecture as published in the paper is as follows:** 
-<img src="DC-GAN/assets/dcgan-arch.png"> 
+<img src="DC-GAN/assets/dcgan-arch.png">   
 The architecture basically consists of convolution layers which typically help in capturing the details of the images.  
 **There are 5 major key points that make DCGAN different from conventional GANs, they are as follows:**  
 - No spatial pooling 
