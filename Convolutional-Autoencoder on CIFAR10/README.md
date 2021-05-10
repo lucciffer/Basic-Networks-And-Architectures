@@ -20,9 +20,10 @@ The term peak signal-to-noise ratio (PSNR) is an expression for the ratio betwee
 PSNR is given as: 
 <p align="center">
   <img src="assets/psnr.png">
-</p>
+</p>  
 
-**PSNR for the designed Convolutional Autoencoder was 35.94dB  ** 
+
+**PSNR for the designed Convolutional Autoencoder was 35.94dB** 
 
 ### Structural Similarity Index(SSIM)  
 The Structural Similarity Index (SSIM) is a perceptual metric that quantifies the image quality degradation that is caused by processing such as data compression or by losses in data transmission. This metric is basically a full reference that requires 2 images from the same shot, this means 2 graphically identical images to the human eye. The second image generally is compressed or has a different quality, which is the goal of this index. SSIM is usually used in the video industry, but has as well a strong application in photography. SIM actually measures the perceptual difference between two similar images. It cannot judge which of the two is better: that must be inferred from knowing which is the original one and which has been exposed to additional processing such as compression or filters.  
@@ -53,4 +54,4 @@ where μx, μy, σx,σy, and σxy are the local means, standard deviations, and 
 </p>     
 The SSIM values range between 0 to 1 where 1 means a perfect match between the original image and the copy.  
 
-**The SSIM for the designed network was calculated to be 0.96**  
+**The SSIM for the designed network was computed to be 0.96**  
