@@ -37,6 +37,11 @@ The general idea or the component used in CNN are the convolutional layers. Gene
 - Flatten 
 - Linear layer(aka. Dense or Fully connected layer) and classification   
 
+
+### How convolutions work  
+<img src="asstes/no_padding_no_strides.gif">  
+Learn more about convolutions [here](https://github.com/vdumoulin/conv_arithmetic)
+
 **Various Layers and components involved in CNN architectures**  
 
 1. Linear layer  
