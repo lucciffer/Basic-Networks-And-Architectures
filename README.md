@@ -90,3 +90,6 @@ Convolutional Autoencoder is a variant of Convolutional Neural Networks that are
 
 The block diagram of a Convolutional Autoencoder is given in the below [figure.](https://www.researchgate.net/profile/Xifeng-Guo/publication/320658590/figure/fig1/AS:614154637418504@1523437284408/The-structure-of-proposed-Convolutional-AutoEncoders-CAE-for-MNIST-In-the-middle-there.png)  
 <img src="https://github.com/lucciffer/Basic-Networks-And-Architectures/blob/master/Convolutional-Autoencoder%20on%20CIFAR10/assets/convae.png">
+
+
+**Note** All the networks were trained on Tesla T4 GPU under CUDA environment in [Google Colab](https://colab.research.google.com)
