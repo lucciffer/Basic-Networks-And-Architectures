@@ -1,10 +1,8 @@
 # Basic-Networks-And-Architectures  
 ### Networks covered in this repository 
-- [Deep Convolutional GAN](DC-GAN)  
-- [CNN based classifier for MNIST Data](CNN-based-MNIST-classifier)  
-- [CNN based classifier for CIFAR10 Data](CNN-based-CIFAR10-classifier)
-- [CNN based classifier for CIFAR100 Data](CNN-based-CIFAR100-classifier)
-- [Convolutional Autoencoder on CIFAR10 Data](https://github.com/lucciffer/Basic-Networks-And-Architectures/tree/main/Convolutional-Autoencoder%20on%20CIFAR10)  
+- [Deep Convolutional GAN](https://github.com/lucciffer/Basic-Networks-And-Architectures#deep-convolutional-generative-adversarial-networks)  
+- [CNN based classifier on MNIST, CIFAR10 and CIFAR100 Datasets](https://github.com/lucciffer/Basic-Networks-And-Architectures#cnn-based-classifierson-mnist-cifar10-and-cifar100)
+- [Convolutional Autoencoder on CIFAR10 Data](https://github.com/lucciffer/Basic-Networks-And-Architectures#convolutional-autoencoder)  
 
 
 ### Deep Convolutional Generative Adversarial Networks  
