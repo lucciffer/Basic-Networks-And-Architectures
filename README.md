@@ -14,7 +14,10 @@ As the name suggests, the generator is a network, that generates data, that coul
 Discriminator is the network that examines the performance of the Generator Network. Then again, How will this discriminator know the benchmarks for identifying real anime-like images from fake images that are produced by the generator? Even though the discriminator has no clue to classify the real anime images from the generated images at the beginning, It learns what are the benchmarks for examining the generator with the time with the help of the generator. Therefore it is basically learning how to classify generated images and the real images using the generated images.  
 DCGAN is using the same concept with the help of convolution layers which are ideal for capturing patterns of images. The generator network uses a random noise in order to produce the image.  
 **The architecture as published in the paper is as follows:** 
-<img src="DC-GAN/assets/dcgan-arch.png">   
+
+<p align="center">
+ <img src="DC-GAN/assets/dcgan-arch.png">   
+</p>
 The architecture basically consists of convolution layers which typically help in capturing the details of the images.  
 **There are 5 major key points that make DCGAN different from conventional GANs, they are as follows:**  
 - No spatial pooling 
@@ -25,7 +28,9 @@ The architecture basically consists of convolution layers which typically help i
 
 **Objective function**  
 The objective function is what helps in realizing the end results. 
-<img src="DC-GAN/assets/obj-func-dcgan.png">  
+<p align="center">
+ <img src="DC-GAN/assets/obj-func-dcgan.png">  
+</p>
 Let us consider a Discriminator (D) that is trying to maximize V(D, G) and the Generator (G) is trying to minimize it. Let’s dive into the V(D, G). (x=real image, z=noise, D(x)=Probability of x being real ,G(z)=Generated image using z-noise). In case of the discriminator, when the real images are fed, D(x) should be higher (≈1) and D(G(z)) should be lower (≈0). Therefore D should be trained to make V(D, G) higher and on the other hand, when it comes to the generator, it tries to generate better images that are real-like. Therefore it tries to make D(G(z)) higher (≈1) which makes V(D, G) minimized.    
 Results and more about DCGAN demonstration in respective section.  
 
@@ -39,7 +44,9 @@ The general idea or the component used in CNN are the convolutional layers. Gene
 
 
 ### How convolutions work   
-<img src="https://github.com/lucciffer/Basic-Networks-And-Architectures/blob/master/assets/no_padding_no_strides.gif"/>    
+<p align="center">
+ <img src="https://github.com/lucciffer/Basic-Networks-And-Architectures/blob/master/assets/no_padding_no_strides.gif"/>    
+</p>
 
 Learn more about convolutions [here](https://github.com/vdumoulin/conv_arithmetic)
 
@@ -78,7 +85,9 @@ MNIST is a collection of handwritten digits 0 through 9, in grayscale. Meaning T
 3. Loss Functions  
 Neural Network works in an iterative manner to get the optimum value for weights.For each iteration, a specific loss function is used to evaluate the error value. This loss function tells the model on how the errors should be calculated.  
 Some of the loss functions are listed below  
-<img src="assets/lossfunc.png">  
+<p align="center">
+ <img src="assets/lossfunc.png">  
+</p>
 
 4. Optimizers  
 During the training process, we tweak and change the parameter of our model to try and minimize the loss function. The optimizers tie together the loss function and model parameters by updating the model in response to the output of the loss function. They shape and mold the model into its most accurate form. Loss function acts as a guide for the model to move in the right direction.  
@@ -89,7 +98,9 @@ During the training process, we tweak and change the parameter of our model to t
 Convolutional Autoencoder is a variant of Convolutional Neural Networks that are used as the tools for unsupervised learning of convolution filters. They are generally applied in the task of image reconstruction to minimize reconstruction errors by learning the optimal filters. Once they are trained in this task, they can be applied to any input in order to extract features. Convolutional Autoencoders are general-purpose feature extractors differently from general autoencoders that completely ignore the 2D image structure. In autoencoders, the image must be unrolled into a single vector and the network must be built following the constraint on the number of inputs.
 
 The block diagram of a Convolutional Autoencoder is given in the below [figure.](https://www.researchgate.net/profile/Xifeng-Guo/publication/320658590/figure/fig1/AS:614154637418504@1523437284408/The-structure-of-proposed-Convolutional-AutoEncoders-CAE-for-MNIST-In-the-middle-there.png)  
-<img src="https://github.com/lucciffer/Basic-Networks-And-Architectures/blob/master/Convolutional-Autoencoder%20on%20CIFAR10/assets/convae.png">
+<p align="center">
+ <img src="https://github.com/lucciffer/Basic-Networks-And-Architectures/blob/master/Convolutional-Autoencoder%20on%20CIFAR10/assets/convae.png">
+</p>
 
 
 **Note** All the networks were trained on Tesla T4 GPU under CUDA environment in [Google Colab](https://colab.research.google.com)
