@@ -42,12 +42,28 @@ The general idea or the component used in CNN are the convolutional layers. Gene
 1. Linear layer  
 The transformation y = Wx + b is applied at the linear layer, where W is the weight, b is the bias, y is the desired output, and x is the input.  
 2. Non-Linear activation functions  
-![](assets/binstep.png) ![](assets/logistic.png)  
-![](assets/tanh.png) ![](assets/arctan.png)  
-![](assets/relu.png) ![](assets/prelu.png)  
-![](assets/elu.png) ![](assets/softplus.png)  
-![](assets/softmax.png)  
-Softmax function squashes the outputs of each unit to be between 0 and 1, similar to the sigmoid function but here it also divides the outputs such that the total sum of all the outputs equals to 1.  
+<table>
+ <tr>
+    <td><img src="assets/binstep.png" width=300 height=300></td>
+    <td><img src="assets/logistic.png" width=300 height=300></td>
+   <td><img src="assets/tanh.png" width=300 height=300></td>
+ </tr>
+</table>  
+<table>
+ <tr>
+   <td><img src="assets/arctan.png" width=300 height=300></td>
+   <td><img src="assets/relu.png" width=300 height=300></td>
+   <td><img src="assets/prelu.png" width=300 height=300></td>
+ </tr>
+</table> 
+<table>
+ <tr>
+   <td><img src="assets/elu.png" width=300 height=300></td>
+   <td><img src="assets/softplus.png" width=300 height=300></td>
+   <td><img src="assets/softmax.png" width=300 height=300></td>
+ </tr>
+</table> 
+**Softmax** function squashes the outputs of each unit to be between 0 and 1, similar to the sigmoid function but here it also divides the outputs such that the total sum of all the outputs equals to 1.  
 
 3. Loss Functions  
 Neural Network works in an iterative manner to get the optimum value for weights.For each iteration, a specific loss function is used to evaluate the error value. This loss function tells the model on how the errors should be calculated.  
