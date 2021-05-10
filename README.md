@@ -63,7 +63,10 @@ The transformation y = Wx + b is applied at the linear layer, where W is the wei
    <td><img src="assets/softmax.png" width=300 height=300></td>
  </tr>
 </table> 
-**Softmax** function squashes the outputs of each unit to be between 0 and 1, similar to the sigmoid function but here it also divides the outputs such that the total sum of all the outputs equals to 1.  
+**Softmax** function squashes the outputs of each unit to be between 0 and 1, similar to the sigmoid function but here it also divides the outputs such that the total sum of all the outputs equals to 1.   
+In this repository, we focus mainly on MNIST, CIFAR10, and CIFAR100 dataset for the training and classification.  
+MNIST is a collection of handwritten digits 0 through 9, in grayscale. Meaning There are 10 classes of digits. Similarly, CIFAR10 adn CIFAR100 are datasets of common objects,animals etc, having 10 and 100 classses respectively. This means that  there are objects belonging to 10 and 100 classes to classify.  
+**Hence we design a 10 class classifier for MNIST and CIFAR10 datasets while a 100 class classifier for CIFAR100 dataset.** 
 
 3. Loss Functions  
 Neural Network works in an iterative manner to get the optimum value for weights.For each iteration, a specific loss function is used to evaluate the error value. This loss function tells the model on how the errors should be calculated.  
@@ -73,9 +76,7 @@ Some of the loss functions are listed below
 4. Optimizers  
 During the training process, we tweak and change the parameter of our model to try and minimize the loss function. The optimizers tie together the loss function and model parameters by updating the model in response to the output of the loss function. They shape and mold the model into its most accurate form. Loss function acts as a guide for the model to move in the right direction.  
 
-In this repository, we focus mainly on MNIST, CIFAR10, and CIFAR100 dataset for the training and classification.  
-MNIST is a collection of handwritten digits 0 through 9, in grayscale. Meaning There are 10 classes of digits. Similarly, CIFAR10 adn CIFAR100 are datasets of common objects,animals etc, having 10 and 100 classses respectively. This means that  there are objects belonging to 10 and 100 classes to classify.  
-**Hence we design a 10 class classifier for MNIST and CIFAR10 datasets while a 100 class classifier for CIFAR100 dataset.**  
+ 
 
 ## Convolutional Autoencoder    
 Convolutional Autoencoder is a variant of Convolutional Neural Networks that are used as the tools for unsupervised learning of convolution filters. They are generally applied in the task of image reconstruction to minimize reconstruction errors by learning the optimal filters. Once they are trained in this task, they can be applied to any input in order to extract features. Convolutional Autoencoders are general-purpose feature extractors differently from general autoencoders that completely ignore the 2D image structure. In autoencoders, the image must be unrolled into a single vector and the network must be built following the constraint on the number of inputs.
