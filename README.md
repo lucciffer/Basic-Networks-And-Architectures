@@ -39,7 +39,8 @@ The general idea or the component used in CNN are the convolutional layers. Gene
 
 
 ### How convolutions work  
-<img src="asstes/no_padding_no_strides.gif">  
+<img src="https://github.com/lucciffer/Basic-Networks-And-Architectures/blob/master/assets/no_padding_no_strides.gif">    
+
 Learn more about convolutions [here](https://github.com/vdumoulin/conv_arithmetic)
 
 **Various Layers and components involved in CNN architectures**  
