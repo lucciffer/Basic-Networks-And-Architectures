@@ -44,24 +44,11 @@ The general idea or the component used in CNN are the convolutional layers. Gene
 1. Linear layer  
 The transformation y = Wx + b is applied at the linear layer, where W is the weight, b is the bias, y is the desired output, and x is the input.  
 2. Non-Linear activation functions  
-2.1. Binary Step  
-<img src="assets/binstep.png">  
-2.2. Logistic  
-<img src="assets/logistic.png">  
-2.3. TanH  
-<img src="assets/tanh.png">  
-2.4. ArcTan  
-<img src="assets/arctan.png">  
-2.5. Rectified Linear Unit (ReLU)  
-<img src="assets/relu.png">  
-2.6 Parametric ReLU (pReLU)  
-<img src="assets/prelu.png">  
-2.7. Exponential Linear Unit (ELU)  
-<img src="assets/elu.png">  
-2.8. Softplus  
-<img src="assets/softplus.png">  
-2.9. Softmax  
-<img src="assets/softmax.png">  
+![](assets/binstep.png) ![](assets/logistic.png)  
+![](assets/tanh.png) ![](assets/arctan.png)  
+![](assets/relu.png) ![](assets/prelu.png)  
+![](assets/elu.png) ![](assets/softplus.png)  
+![](assets/softmax.png)  
 Softmax function squashes the outputs of each unit to be between 0 and 1, similar to the sigmoid function but here it also divides the outputs such that the total sum of all the outputs equals to 1.  
 
 3. Loss Functions  
