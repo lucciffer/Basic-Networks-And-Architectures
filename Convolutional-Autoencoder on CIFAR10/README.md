@@ -15,12 +15,16 @@ The Autoencoder network was trained on CIFAR10 dataset, for 100 epochs and resul
   <img src="decoded95.png">
 </p>
 
+## Quality Metrics  
+The most traditional estimator is mean-square error (MSE). MSE measures the average squared difference between the estimated values (predicted values) and the actual value (ground truth).  
+
 ### Peak-Signal-to-Noise Ratio(PSNR)  
 The term peak signal-to-noise ratio (PSNR) is an expression for the ratio between the maximum possible value (power) of a signal and the power of distorting noise that affects the quality of its representation.  Because many signals have a very wide dynamic range, (ratio between the largest and smallest possible values of a changeable quantity) the PSNR is usually expressed in terms of the logarithmic decibel scale.  
 PSNR is given as: 
 <p align="center">
   <img src="assets/psnr.png">
 </p>  
+
 
 
 **PSNR for the designed Convolutional Autoencoder was 35.94dB** 
