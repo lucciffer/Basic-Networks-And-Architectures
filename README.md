@@ -118,12 +118,15 @@ The ResNet-50 model consists of 5 stages each with a convolution and Identity bl
 An example of the ResNet50 architecture that was trained on ImageNet is shown below  
 <p align="center">
  <img src="ResNet50/assets/resnet50arch.png">
-</p>  
-### Skip Connection   
+</p>    
+
+### Skip Connection     
+
 In ResNet architecture, a “shortcut” or a “skip connection” allows the gradient to be directly backpropagated to earlier layers:  
 <p align="center">
  <img src="ResNet50/assets/skipconn.png">
-</p>  
+</p>   
+
 [Image source](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)  
 The image on the top shows the “main path” through the network. The image on the bottom adds a shortcut to the main path. By stacking these ResNet blocks on top of each other, you can form a very deep network.
 
@@ -134,6 +137,7 @@ The identity block is the standard block used in ResNets and corresponds to the 
  <img src="ResNet50/assets/identityblock.png">
 </p>  
 2. Convolutional Block   
+   
 We can use this type of block when the input and output dimensions don’t match up. The difference with the identity block is that there is a CONV2D layer in the shortcut path.  
 <p align="center">
  <img src="ResNet50/assets/convblock.png">
