@@ -3,6 +3,7 @@
 - [Deep Convolutional GAN](https://github.com/lucciffer/Basic-Networks-And-Architectures#deep-convolutional-generative-adversarial-networks)  
 - [CNN based classifier on MNIST, CIFAR10 and CIFAR100 Datasets](https://github.com/lucciffer/Basic-Networks-And-Architectures#cnn-based-classifierson-mnist-cifar10-and-cifar100)
 - [Convolutional Autoencoder on CIFAR10 Data](https://github.com/lucciffer/Basic-Networks-And-Architectures#convolutional-autoencoder)  
+- Transfer Learning using **ResNet50** Architecture
 
 
 ### Deep Convolutional Generative Adversarial Networks  
