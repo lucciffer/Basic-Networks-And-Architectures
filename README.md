@@ -113,8 +113,28 @@ Transfer Learning gives us the ability to leverage the power of having a large d
   1. Feature Extraction
   2. Fine-Tuning
 
-The purpose of this experiment is to focus on the first option, feature extraction, and we will use the ImageNet architecture, ResNet50 as the pre-trained model. There are numerous transfer learning architectures that could be chosen such as VGG16, VGG19, MobileNet, etc. They all have their pros and cons for certain situations. For example, MobileNet is meant to be fast and flexible and works best on mobile devices. These models are trained on ImageNet dataset which contained 1.4 million labeled images and 1000 different classes. This is great given the fact that we might not have enough data to capture certain spacial features with our small dataset that we are looking to classify. 
+The purpose of this experiment is to focus on the first option, feature extraction, and we will use the ImageNet architecture, ResNet50 as the pre-trained model. There are numerous transfer learning architectures that could be chosen such as VGG16, VGG19, MobileNet, etc. They all have their pros and cons for certain situations. For example, MobileNet is meant to be fast and flexible and works best on mobile devices. These models are trained on ImageNet dataset which contained 1.4 million labeled images and 1000 different classes. This is great given the fact that we might not have enough data to capture certain spacial features with our small dataset that we are looking to classify.   
+The ResNet-50 model consists of 5 stages each with a convolution and Identity block. Each convolution block has 3 convolution layers and each identity block also has 3 convolution layers. The ResNet-50 has over 23 million trainable parameters.
 An example of the ResNet50 architecture that was trained on ImageNet is shown below  
 <p align="center">
  <img src="ResNet50/assets/resnet50arch.png">
-</p>
+</p>  
+### Skip Connection   
+In ResNet architecture, a “shortcut” or a “skip connection” allows the gradient to be directly backpropagated to earlier layers:  
+<p align="center">
+ <img src="ResNet50/assets/skipconn.png">
+</p>  
+[Image source](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)  
+The image on the top shows the “main path” through the network. The image on the bottom adds a shortcut to the main path. By stacking these ResNet blocks on top of each other, you can form a very deep network.
+
+There are two main types of blocks are used in a ResNet, depending mainly on whether the input/output dimensions are the same or different.  
+1. Identity Block  
+The identity block is the standard block used in ResNets and corresponds to the case where the input activation has the same dimension as the output activation.  
+<p align="center">
+ <img src="ResNet50/assets/identityblock.png">
+</p>  
+2. Convolutional Block   
+We can use this type of block when the input and output dimensions don’t match up. The difference with the identity block is that there is a CONV2D layer in the shortcut path.  
+<p align="center">
+ <img src="ResNet50/assets/convblock.png">
+</p>  
