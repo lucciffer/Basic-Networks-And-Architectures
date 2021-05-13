@@ -116,5 +116,5 @@ Transfer Learning gives us the ability to leverage the power of having a large d
 The purpose of this experiment is to focus on the first option, feature extraction, and we will use the ImageNet architecture, ResNet50 as the pre-trained model. There are numerous transfer learning architectures that could be chosen such as VGG16, VGG19, MobileNet, etc. They all have their pros and cons for certain situations. For example, MobileNet is meant to be fast and flexible and works best on mobile devices. These models are trained on ImageNet dataset which contained 1.4 million labeled images and 1000 different classes. This is great given the fact that we might not have enough data to capture certain spacial features with our small dataset that we are looking to classify. 
 An example of the ResNet50 architecture that was trained on ImageNet is shown below  
 <p align="center">
- <img src="ResNet50/assets/resnet50arch">
+ <img src="ResNet50/assets/resnet50arch.png">
 </p>
