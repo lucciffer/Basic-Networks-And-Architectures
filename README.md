@@ -104,4 +104,7 @@ The block diagram of a Convolutional Autoencoder is given in the below [figure.]
 </p>
 
 
-**Note** All the networks were trained on Tesla T4 GPU under CUDA environment in [Google Colab](https://colab.research.google.com)
+**Note** All the networks were trained on Tesla T4 GPU under CUDA environment in [Google Colab](https://colab.research.google.com)  
+
+## Transfer Learning using ResNet50 Architecture  
+
