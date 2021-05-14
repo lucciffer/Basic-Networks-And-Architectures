@@ -1,3 +1,4 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/lucciffer/Basic-Networks-And-Architectures) 
 # Basic-Networks-And-Architectures  
 ### Networks covered in this repository 
 - [Deep Convolutional GAN](https://github.com/lucciffer/Basic-Networks-And-Architectures#deep-convolutional-generative-adversarial-networks)  
