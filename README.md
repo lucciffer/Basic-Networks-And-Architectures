@@ -1,5 +1,5 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/lucciffer/Basic-Networks-And-Architectures)   
-Tools used: ![TensorFlow](https://img.shields.io/badge/-TensorFlow-000000?logo=tensorflow)
+**Languages and Tools used:** ![TensorFlow](https://img.shields.io/badge/-TensorFlow-000000?logo=tensorflow)
 ![Keras](https://img.shields.io/badge/-Keras-D00000?logo=keras) ![PyTorch](https://img.shields.io/badge/-PyTorch-000000?logo=pytorch) ![PyCharm](https://img.shields.io/badge/-PyCharm-000000?logo=pycharm) ![Google Colab](https://img.shields.io/badge/-Google%20Colab-F9AB00?logo=googlecolab)  
 # Basic-Networks-And-Architectures  
 ### Networks covered in this repository 
