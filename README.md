@@ -1,6 +1,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/lucciffer/Basic-Networks-And-Architectures)   
 **Languages and Tools used:** ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python) ![TensorFlow](https://img.shields.io/badge/-TensorFlow-000000?logo=tensorflow)
-![Keras](https://img.shields.io/badge/-Keras-D00000?logo=keras) ![PyTorch](https://img.shields.io/badge/-PyTorch-000000?logo=pytorch) ![PyCharm](https://img.shields.io/badge/-PyCharm-000000?logo=pycharm) ![Google Colab](https://img.shields.io/badge/-Google%20Colab-F9AB00?logo=googlecolab)  
+![Keras](https://img.shields.io/badge/-Keras-D00000?logo=keras) ![PyTorch](https://img.shields.io/badge/-PyTorch-000000?logo=pytorch) ![PyCharm](https://img.shields.io/badge/-PyCharm-000000?logo=pycharm) ![Google Colab](https://img.shields.io/badge/-Google%20Colab-lightgrey?logo=google%20colab)  
 # Basic-Networks-And-Architectures  
 ### Networks covered in this repository 
 - [Deep Convolutional GAN](https://github.com/lucciffer/Basic-Networks-And-Architectures#deep-convolutional-generative-adversarial-networks)  
