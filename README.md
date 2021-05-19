@@ -23,7 +23,9 @@ DCGAN is using the same concept with the help of convolution layers which are id
  <img src="DC-GAN/assets/dcgan-arch.png">   
 </p>
 The architecture basically consists of convolution layers which typically help in capturing the details of the images.  
+
 **There are 5 major key points that make DCGAN different from conventional GANs, they are as follows:**  
+
 - No spatial pooling 
 - No fully connected layers
 - Batch Normalization 
