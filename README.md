@@ -82,6 +82,7 @@ The transformation y = Wx + b is applied at the linear layer, where W is the wei
    <td><img src="assets/softmax.png" width=300 height=300></td>
  </tr>
 </table> 
+
 **Softmax** function squashes the outputs of each unit to be between 0 and 1, similar to the sigmoid function but here it also divides the outputs such that the total sum of all the outputs equals to 1.  
   
 In this repository, we focus mainly on MNIST, CIFAR10, and CIFAR100 dataset for the training and classification.  
